@@ -1,13 +1,40 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
 html,
 body {
-  overflow-x: hidden;
-  background: whitesmoke;
+  overflow: hidden;
+  margin: 0;
+  padding: 0 !important;
+}
+html main,
+body main {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  top: -100px;
+}
+html main input,
+body main input {
+  height: 40px;
+  border: 3px solid #ffc107;
+}
+html main input:focus,
+body main input:focus {
+  background-color: #ffc10785;
+  outline-color: #ffc107;
+  color: white;
+}
+html main button,
+body main button {
+  height: 40px;
+  background: #ffc107;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+html main button:hover,
+body main button:hover {
+  box-shadow: 0 0 10px 1px #ffc107;
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
 }
 
 /*# sourceMappingURL=style.css.map */
