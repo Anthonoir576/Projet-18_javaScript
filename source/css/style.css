@@ -3,33 +3,30 @@ body {
   overflow: hidden;
   margin: 0;
   font-family: "Josefin Sans", "Lato", sans-serif;
-}
-html main,
-body main {
   width: 100vw;
   height: 100vh;
 }
-html main input,
-body main input {
+html input,
+body input {
   height: 40px;
   border: 3px solid #ffc107;
 }
-html main input:focus,
-body main input:focus {
+html input:focus,
+body input:focus {
   background-color: #ffc10785;
   outline-color: #ffc107;
   color: white;
 }
-html main button,
-body main button {
+html button,
+body button {
   height: 40px;
   background: #ffc107;
   color: white;
   font-size: 20px;
   font-weight: 600;
 }
-html main button:hover,
-body main button:hover {
+html button:hover,
+body button:hover {
   box-shadow: 0 0 10px 1px #ffc107;
   transform: scale(1.1);
   transition: 0.3s ease-in-out;
