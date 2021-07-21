@@ -21,6 +21,21 @@ const name = () => {
 
 };
 
+
+const visit = () => {
+
+    let visitDisplay = document.getElementById('visitDisplay');
+    let visitCount = localStorage.getItem('visites');
+
+    visitCount++;
+    localStorage.setItem('visites', visitCount);
+
+    visitDisplay.innerHTML = `Nombre de visite aujourd'hui : ${visitCount}`
+
+}; 
+
+
+
 function setData() {
 
     // recupere le nom dans l'input
@@ -32,3 +47,4 @@ function setData() {
 };
 
 name();
+visit();
